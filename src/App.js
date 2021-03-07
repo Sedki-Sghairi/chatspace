@@ -1,11 +1,9 @@
 import './App.css';
-
+import Header from './Header';
 function App() {
 	return (
 		<div>
-			<header>
-				<h1>dagdeg</h1>
-			</header>
+			<Header />
 		</div>
 	);
 }
