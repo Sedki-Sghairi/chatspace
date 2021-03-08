@@ -1,13 +1,13 @@
 import React from 'react';
 import './header.css';
-import { FaSearch } from 'react-icons/fa';
+import SearchIcon from '@material-ui/icons/Search';
 const Header = () => {
 	return (
 		<div className="header">
 			<div className="header__left">
 				<img src="/images/logo.svg" alt="" />
 				<div className="header__search">
-					<FaSearch />
+					<SearchIcon />
 					<input type="text" />
 				</div>
 			</div>
