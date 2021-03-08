@@ -10,7 +10,9 @@ const Header = () => {
 	return (
 		<div className="header">
 			<div className="header__left">
-				<img src="/images/logo.svg" alt="" />
+				<a href="/">
+					<img src="/images/logo.svg" alt="logo" />
+				</a>
 				<div className="header__search">
 					<SearchIcon />
 					<input type="text" />

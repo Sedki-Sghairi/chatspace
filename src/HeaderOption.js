@@ -3,18 +3,14 @@ import './headerOption.css';
 
 const HeaderOption = ({ Icon, title, myStyle }) => {
 	return (
-		<div className="headerOption">
-			{myStyle ? (
-				Icon && (
-					<div className={myStyle}>
-						<Icon />
-					</div>
-				)
-			) : (
-				Icon && <Icon />
+		<>
+			{Icon && (
+				<a href="/" className={(myStyle ? myStyle : '') + ' headerOption'}>
+					<Icon />
+					<h6>{title}</h6>
+				</a>
 			)}
-			<h6>{title}</h6>
-		</div>
+		</>
 	);
 };
 

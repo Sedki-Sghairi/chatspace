@@ -11,7 +11,7 @@
 	display: flex;
 	align-items: center;
 }
-.header__left > img {
+.header__left img {
 	object-fit: contain;
 	height: 40px;
 }
@@ -46,6 +46,7 @@
 	text-transform: capitalize;
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 	flex: 1;
 }
 .home {
@@ -58,7 +59,7 @@
 	.header__search > input:focus {
 		width: 159px;
 	}
-	.header__left > img {
+	.header__left img {
 		margin: .15rem;
 	}
 	.home {
