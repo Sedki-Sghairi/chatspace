@@ -1,1 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h6 {
+	font-family: "Roboto", sans-serif;
+	text-transform: capitalize;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+h4 {
+	font-size: 0.7rem;
+}
 
+p {
+	font-family: "Open Sans", sans-serif;
+
+	color: rgb(71, 91, 110);
+}
+@media screen and (min-width: 800px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 1.8rem;
+	}
+	h3 {
+		font-size: 1.75rem;
+	}
+	h4 {
+		font-size: .9rem;
+	}
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(241, 245, 248);
+}
+.container {
+	display: flex;
+}
