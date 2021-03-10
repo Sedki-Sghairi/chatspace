@@ -12,12 +12,8 @@ const Sidebar = () => {
 				<h4>Full stack web developper</h4>
 			</div>
 			<div className="sidebar__stats">
-				<div className="sidebar__stat">
-					<p>who viewed your profile</p>
-				</div>
-				<div className="sidebar__stat">
-					<p>your posts</p>
-				</div>
+				<a className="sidebar__link">who viewed your profile</a>
+				<a className="sidebar__link">Your posts</a>
 			</div>
 			<div className="sidebar__bottom">
 				<p>recent</p>

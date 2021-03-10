@@ -62,11 +62,14 @@
 	.header__search > input:focus {
 		width: 159px;
 	}
+
+	.home {
+		display: block;
+	}
+}
+@media (min-width: 800px) {
 	.header__left img {
 		margin: .15rem;
 		margin-left: 2rem;
-	}
-	.home {
-		display: block;
 	}
 }
