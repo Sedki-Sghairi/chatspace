@@ -23,6 +23,7 @@
 	border-top-left-radius: .5rem;
 	background-color: #fff;
 	padding: .6rem;
+	padding-bottom: 2rem;
 }
 .sidebar__top > img {
 	margin-bottom: -3rem;
@@ -45,12 +46,14 @@
 	box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
 	padding: .2rem;
 }
+.sidebar__recentItem,
 .sidebar__link {
 	padding: .13rem;
 	color: #37474f;
 	font-size: .7rem;
 	font-weight: 500;
 }
+.sidebar__recentItem:hover,
 .sidebar__link:hover {
 	background-color: rgba(52, 88, 129, .9);
 	color: whitesmoke;
@@ -62,4 +65,20 @@
 	.sidebar {
 		margin-left: 2rem;
 	}
+}
+.sidebar__bottom {
+	text-align: left;
+	padding: 10px;
+	border: lightgray solid 2px;
+	background-color: #fff;
+	border-radius: .5rem;
+	margin-top: .5rem;
+}
+.sidebar__recentItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sidebar__recentItem:hover .topic {
+	color: #fff;
 }

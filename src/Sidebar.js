@@ -1,8 +1,16 @@
 import { Avatar } from '@material-ui/core';
 import React from 'react';
 import './sidebar.css';
-
+import TimelineOutlinedIcon from '@material-ui/icons/TimelineOutlined';
 const Sidebar = () => {
+	const recentItem = (topic) => {
+		return (
+			<a className="sidebar__recentItem">
+				<TimelineOutlinedIcon />
+				<p className="topic">{topic}</p>
+			</a>
+		);
+	};
 	return (
 		<div className="sidebar">
 			<div className="sidebar__top">
@@ -16,7 +24,12 @@ const Sidebar = () => {
 				<a className="sidebar__link">Your posts</a>
 			</div>
 			<div className="sidebar__bottom">
-				<p>recent</p>
+				<b>#recent</b>
+				{recentItem('Engineering')}
+				{recentItem('Python')}
+				{recentItem('JavaScript')}
+				{recentItem('AngularJs')}
+				{recentItem('ReactJs')}
 			</div>
 		</div>
 	);
