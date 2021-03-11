@@ -10,3 +10,6 @@
 .inputOption:hover {
 	background-color: rgb(228, 228, 228);
 }
+.inputOption > h4 {
+	margin-left: .2rem;
+}

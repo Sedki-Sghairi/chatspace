@@ -43,12 +43,12 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	background-color: #fff;
-	box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+	box-shadow: 0 0 0 1px rgb(0 0 0 / 15%);
 	padding: .2rem;
 }
 .sidebar__recentItem,
 .sidebar__link {
-	padding: .13rem;
+	padding: .13rem .5rem;
 	color: #37474f;
 	font-size: .7rem;
 	font-weight: 500;
