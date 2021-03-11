@@ -2,6 +2,10 @@ import React from 'react';
 import './feed.css';
 import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
 import InputOptions from './InputOptions';
+import PhotoIcon from '@material-ui/icons/Photo';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import EventAvailableIcon from '@material-ui/icons/EventAvailable';
+import DescriptionIcon from '@material-ui/icons/Description';
 
 const Feed = () => {
 	return (
@@ -15,7 +19,10 @@ const Feed = () => {
 					</form>
 				</div>
 				<div className="feed__inputOptions">
-					<InputOptions />
+					<InputOptions Icon={PhotoIcon} title="Photo" color="rgba(52, 88, 129,.5)" />
+					<InputOptions Icon={VideocamIcon} title="Video" color="#a5d6a7" />
+					<InputOptions Icon={EventAvailableIcon} title="Event" color="#ffcc80" />
+					<InputOptions Icon={DescriptionIcon} title="Article" color="#81d4fa" />
 				</div>
 			</div>
 		</div>
