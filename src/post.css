@@ -1,0 +1,23 @@
+.post {
+	background-color: #fff;
+	padding: 1rem;
+	margin-bottom: .6rem;
+	border-radius: .5rem;
+}
+.post__header {
+	display: flex;
+	margin-bottom: .6rem;
+}
+.post__info {
+	margin-left: .6rem;
+}
+.post__info > p {
+	font-size: 12px;
+	color: gray;
+}
+.post__info > h2 {
+	font-size: 1rem;
+}
+.post__body {
+	overflow-wrap: anywhere;
+}

@@ -6,6 +6,7 @@ import PhotoIcon from '@material-ui/icons/Photo';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import DescriptionIcon from '@material-ui/icons/Description';
+import Post from './Post';
 
 const Feed = () => {
 	return (
@@ -25,6 +26,7 @@ const Feed = () => {
 					<InputOptions Icon={DescriptionIcon} title="Article" color="#81d4fa" />
 				</div>
 			</div>
+			<Post name="sedki" description="some text here" photoUrl="/images/avatar.png" />
 		</div>
 	);
 };
