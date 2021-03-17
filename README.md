@@ -1,2 +1,2 @@
 # chatspace
-A chat app built using react, redux and firebase.
+A Linkedin-like social network built using react, redux and firebase.
