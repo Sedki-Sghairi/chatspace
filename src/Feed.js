@@ -24,9 +24,10 @@ const Feed = () => {
 			photoUrl: '',
 			timestamp: firebase.firestore.FieldValue.serverTimestamp()
 		});
+		setInput('');
 	};
 	useEffect(() => {
-		db.collection('posts').onSnapshot((snapshat) => {
+		db.collection('posts').orderBy('timestamp', 'desc').onSnapshot((snapshat) => {
 			setPosts(
 				snapshat.docs.map((doc) => ({
 					id: doc.id,

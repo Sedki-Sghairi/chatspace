@@ -1,13 +1,14 @@
 .sidebar {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 50px;
+	top: 55px;
 	flex: .2;
 	border-radius: .5rem;
 	min-height: 70vh;
 	text-transform: capitalize;
 	min-width: 200px;
 	margin-top: 2rem;
+	align-self: flex-start;
 }
 .sidebar h4 {
 	color: #546e7a;
