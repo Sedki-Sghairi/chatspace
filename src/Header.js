@@ -4,7 +4,6 @@ import SearchIcon from '@material-ui/icons/Search';
 import HeaderOption from './HeaderOption';
 import GroupIcon from '@material-ui/icons/Group';
 import EmailIcon from '@material-ui/icons/Email';
-// import AddBoxIcon from '@material-ui/icons/AddBox';
 import WorkIcon from '@material-ui/icons/Work';
 import Home from '@material-ui/icons/Home';
 const Header = () => {
@@ -16,7 +15,7 @@ const Header = () => {
 				</a>
 				<div className="header__search">
 					<SearchIcon />
-					<input type="text" />
+					<input type="text" placeholder="Search" />
 				</div>
 			</div>
 			<div className="header__right">
