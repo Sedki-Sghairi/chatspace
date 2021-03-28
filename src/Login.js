@@ -20,7 +20,7 @@ const Login = () => {
 				<input placeholder="Full name" type="text" />
 				<input placeholder="Email" type="email" />
 				<input placeholder="Password" type="password" />
-				<button onClick={handleLogin}>Log-In</button>
+				<button onClick={handleLogin}>Log In</button>
 			</form>
 			<p>
 				Not a member?{' '}
